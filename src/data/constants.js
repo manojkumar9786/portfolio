@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/manojkumar9786",
   resume:
-    "https://drive.google.com/file/d/1imTTyVCldRA7VjhOyafmfVMJ8vnVV4Mn/view?usp=drive_link",
+    "https://drive.google.com/file/d/1ulfqri5guxWe4L7Td2eakFjLSRRROZ5-/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/s-manojkumar/",
   twitter: "https://x.com/ManojKu88485470",
   insta: "https://www.instagram.com/__m_a_n_o_j_k_u_m_a_r/",
@@ -114,15 +114,43 @@ export const skills = [
     ],
   },
 ];
-
+//https://res.cloudinary.com/dght6acvp/image/upload/v1729411889/images_3_owvv0y.jpg
 export const experiences = [
+  {
+    id: 10,
+    img: "https://res.cloudinary.com/dght6acvp/image/upload/v1729411889/images_3_owvv0y.jpg",
+    role: "Front End Developer",
+    company: "Tridots Tech Pvt Ltd",
+    date: "Oct 2024 - Present",
+    desc: `• Actively learning and implementing Next.js for server-side rendering and static site generation.
+Developing skills in React.js for building dynamic user interfaces.
+Ensuring responsive and user-friendly UI designs. Prioritizing secure and reliable
+development practices.
+Currently working on Indiaretail Project.`,
+    skills: [
+      "Nextjs",
+      "ReactJS",
+      "Redux",
+      "Tailwind Css",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  },
   {
     id: 0,
     img: "https://res.cloudinary.com/dght6acvp/image/upload/v1716993938/1644121524479_1_jrn8k5.jpg",
     role: "Front End Developer Intern(Reactjs)",
     company: "Cryptograpic Solutions",
     date: "Mar 2024 - Jun 2024",
-    desc: "Working on the frontend of the web application using ReactJS, React Context, and tailwind Css",
+    desc: `• Developing the frontend for the 'SSB ACE PREPARATION' project using React.js. Implementing routing with React Router to enhance navigation and user 
+    experience. Utilizing Tailwind CSS to create responsive and modern UI designs.
+Managing state and global data with React Context for efficient data handling.
+Collaborating with the backend team to integrate APIs and enhance
+functionality.
+Participating in team meetings and code reviews to maintain high code quality
+and alignment with project goals.`,
     skills: [
       "ReactJS",
       "Redux",
