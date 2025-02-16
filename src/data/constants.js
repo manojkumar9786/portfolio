@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/manojkumar9786",
   resume:
-    "https://drive.google.com/file/d/1ulfqri5guxWe4L7Td2eakFjLSRRROZ5-/view?usp=drive_link",
+    "https://drive.google.com/file/d/1gUnTWaM30nAG6i8VhLLLJWEaEEoNXJF9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/s-manojkumar/",
   twitter: "https://x.com/ManojKu88485470",
   insta: "https://www.instagram.com/__m_a_n_o_j_k_u_m_a_r/",
@@ -22,20 +22,25 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
+        name: "Next Js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+      },
+      {
         name: "React Js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Vue Js",
+        image: "/vue.png"
       },
       {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
+      
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -122,11 +127,11 @@ export const experiences = [
     role: "Front End Developer",
     company: "Tridots Tech Pvt Ltd",
     date: "Oct 2024 - Present",
-    desc: `• Actively learning and implementing Next.js for server-side rendering and static site generation.
-Developing skills in React.js for building dynamic user interfaces.
-Ensuring responsive and user-friendly UI designs. Prioritizing secure and reliable
-development practices.
-Currently working on Indiaretail Project.`,
+    desc: `• Worked extensively on Next.js, contributing to the IndiaRetail news platform by developing and optimizing
+             6 key pages. Improved UI responsiveness, debugged issues, and collaborated with the team for API integration and performance optimization. 
+             Gained hands-on experience with Vue.js, focusing on creating reusable components, implementing
+             responsive designs, and ensuring cross-browser compatibility for seamless user interactions. Currently learning the Frappe Framework to enhance backend development skills. 
+             Building scalable backend solutions and integrating REST APIs with frontend applications.`,
     skills: [
       "Nextjs",
       "ReactJS",
@@ -198,7 +203,7 @@ export const education = [
     img: "https://res.cloudinary.com/dght6acvp/image/upload/v1717224468/images_vwhvts.jpg",
     school: "SNS COLLEGE OF TECHNOLOGY, Coimbatore",
     date: "Nov 2022 - Jun 2024",
-    grade: "6.88 CGPA",
+    grade: "7.4 CGPA",
     degree: "Master of Computer Applications - MCA",
   },
   {
